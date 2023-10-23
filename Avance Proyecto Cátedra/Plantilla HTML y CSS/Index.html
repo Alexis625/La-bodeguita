@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login/Register</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'>
+    <link rel="stylesheet" href="css/css.css" />
+</head>
+
+<body>
+
+    <!-- Log In Form Section -->
+    <section>
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form action="Index.html">
+                    <h1>Registrar</h1>
+                    <br>
+                    <label>
+                        <input type="text" placeholder="Nombre" />
+                    </label>
+                    <label>
+                        <input type="email" placeholder="Correo" />
+                    </label>
+                    <label>
+                        <input type="password" placeholder="Contraseña" />
+                    </label>
+                    <label>
+                        <input type="text" placeholder="DUI" />
+                    </label>
+                    <br>
+                    <button style="margin-top: 9px" type="submit">Registrar</button>
+                </form>
+            </div>
+            <div class="form-container sign-in-container">
+                <form action="principal.html">
+                    <h1>Iniciar Sesión</h1>
+                    <br>
+                    <label>
+                        <input type="email" placeholder="Correo" />
+                    </label>
+                    <label>
+                        <input type="password" placeholder="Contraseña" />
+                    </label>
+                    <br>
+                    <button type="submit">Iniciar Sesión</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>Iniciar Sesion</h1>
+                        <p>Inicia sesion si ya tienes una cuenta existente</p>
+                        <button class="ghost mt-5" id="signIn">Iniciar Sesion</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>¡Crea una cuenta!</h1>
+                        <p>Registrate si todavia no tienes una cuenta</p>
+                        <button class="ghost" id="signUp">Registrarse</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js'></script>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
